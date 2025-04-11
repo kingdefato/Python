@@ -1,0 +1,5 @@
+num = int(input('Digite 4 numeros:'))
+print (f'A sua milha é {num//1000 }')
+print(f'A sua centena é {num//100 % 10}')
+print(f'A sua dezena é {num// 10 % 10}')
+print(f'A sua unidade é {num//1 % 10}')
