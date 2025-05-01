@@ -1,6 +1,6 @@
 import random
 from time import sleep
-print('Vou pensar em um numero entre 0 e 5 tente advinhar!')
+print('Vou pensar em um numero entre 0 e 5 Tente advinhar!')
 sleep(1)
 print('PROCESSANDO...')
 sleep(1)
