@@ -1,4 +1,4 @@
-nome = str(input('Escreva seu nome completo:')).strip()
+nome = str(input('Escreva seu nome Completo:')).strip()
 print(nome.upper())
 print(nome.lower())
 nome = nome.split()
