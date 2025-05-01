@@ -3,4 +3,4 @@
 #print('\033[1;35;43mOla, Mundo')
 #print('\033[0;30;42mOla, Mundo')
 #print('\033[0;31;40mOla, Mundo')
-print('\033[7;31;45mOla, Mundo')
+print('\033[7;31;45mOla , Mundo')
