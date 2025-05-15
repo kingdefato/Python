@@ -10,8 +10,8 @@ palpites = 0
 acertou = False
 while not acertou:
     jogador = int(input('Qual é seu palpite? ')) # usuario tenta adivinhar
+    palpites += 1
     if jogador == computador:
-        palpites += 1
         acertou = True
         print(f'Você acertou com {palpites} tentativas, Parabéns!')
     else: 
