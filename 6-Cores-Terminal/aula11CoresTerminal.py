@@ -1,0 +1,6 @@
+# print('\033[1;31;44mOla, Mundo!\033[m')
+#print('\033[4;33;44mOla, Mundo')
+#print('\033[1;35;43mOla, Mundo')
+#print('\033[0;30;42mOla, Mundo')
+#print('\033[0;31;40mOla, Mundo')
+print('\033[7;31;45mOla , Mundo')
