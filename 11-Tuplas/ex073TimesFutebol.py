@@ -1,0 +1,11 @@
+times = "Botafogo", "Palmeiras", "Flamengo", "Fortaleza", "Internacional", "São Paulo", "Corinthians", "Bahia", "Cruzeiro", "Vasco da Gama", "Vitória", "Atlético Mineiro", "Fluminense", "Grêmio", "Juventude", "Red Bull Bragantino", "Athletico Paranaense", "Criciúma", "Atlético Goianiense", "Cuiabá"
+print('=-'*30)
+print(f'{'\033[31;4mANALISE DO BRASILEIRÃO\033[m':=^60}')
+print('=-'*30)
+print(f'\033[4mOs 5 Primeiros são:\033[m {times[:5]}')
+print('=-'*30)
+print(f'\033[4mOs 4 ultimos são:\033[m {times[20:15:-1]}')
+print('=-'*30)
+print(f'\033[4mTimes em ordem alfábetica:\033[m {sorted(times)}')
+print('=-'*30)
+print(f'O Corinthians esta na {times.index('Corinthians')+1}ª Posição')
