@@ -12,12 +12,12 @@ else:
 print(f'Essa lista tem {len(num)} elementos.')
 for v in num:
     print(f'{v}...', end='')
-'''valores = list()
+valores = list()
 for cont in range(0, 5):
     valores.append(int(input('Digite um valor: ')))
 
 for c, v in enumerate(valores):
-    print(f'Na posição {c} encontrei o valor {v}!')'''
+    print(f'Na posição {c} encontrei o valor {v}!')
 
 print(f'Cheguei ao final da lista')
 a = [2, 3, 4, 7]
