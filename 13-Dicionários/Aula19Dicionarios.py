@@ -6,12 +6,12 @@ for k, v in dados.items():
     print(f'O {k} é {v}')  
 #print(f'O titulo é {dados["Titulo"]} e o genero é {dados["Genero"]}')
 
-'''brasil = []
+brasil = []
 estado1 = {'uf': 'Rio de Janeiro', 'Sigla': 'RJ'}
 estado2 = {'uf': 'São Paulo', 'Sigla': 'SP'}
 brasil.append(estado1)
 brasil.append(estado2)
-print(brasil[0]['uf'])'''
+print(brasil[0]['uf'])
 
 estado = dict()
 brasil = list()
