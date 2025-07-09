@@ -1,4 +1,6 @@
 from time import sleep
+
+
 def maior(*num):
     cont = maior = 0
     print('-=' * 30)

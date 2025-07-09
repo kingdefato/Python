@@ -15,7 +15,8 @@ while True:
 print('\n<<< PRODUTOS CADASTRADOS >>>\n')
 for v in estoque:
     total = v['Preço'] * v['Quantidade']
-    print(f'Produto: {v["Nome"]} | Preço: R${v["Preço"]:.2f} | Quantidade: {v["Quantidade"]} | Total: R$ {total:.2f}')
+    print(
+        f'Produto: {v["Nome"]} | Preço: R${v["Preço"]:.2f} | Quantidade: {v["Quantidade"]} | Total: R$ {total:.2f}')
 nome_alterar = input('Nome do produto que deseja atualizar o preço: ')
 encontrado = False
 for v in estoque:
@@ -23,7 +24,8 @@ for v in estoque:
         print('\nProduto encontrado!')
         novo_preço = float(input(f'Digite o novo preço para {v["Nome"]}: R$ '))
         v['Preço'] = novo_preço
-        print(f'Preço atualizado com sucesso! O preço de {v["Nome"]} agora é R$: {v["Preço"]}')
+        print(
+            f'Preço atualizado com sucesso! O preço de {v["Nome"]} agora é R$: {v["Preço"]}')
         encontrado = True
         break
 if not encontrado:

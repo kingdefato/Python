@@ -9,18 +9,18 @@ def fatorial(num, show=False):
     """
     f = 1
     if show == False:
-        for c in range(num, 0 , -1):
-            f*= c
+        for c in range(num, 0, -1):
+            f *= c
         return f
     if show == True:
-        for c in range (num, 0, -1):
-            f*= c
+        for c in range(num, 0, -1):
+            f *= c
             print(f'{c}', end='')
-            print(' x ' if c>1 else ' = ', end='')
+            print(' x ' if c > 1 else ' = ', end='')
         return f
-   
-        
-#Programa Principal
+
+
+# Programa Principal
 print(fatorial(5, True))
 print(fatorial(5))
 help(fatorial)

@@ -5,6 +5,7 @@
 # c) Uma contagem personalizada.
 from time import sleep
 
+
 def mostralinha():
     print('-=' * 20)
 
@@ -23,8 +24,10 @@ for c in range(10, -1, -2):
     sleep(0.5)
 print('FIM!')
 mostralinha()
+
+
 def contador(inicio, fim, passo):
-    
+
     if passo < 0:
         passo *= -1
 
@@ -36,7 +39,6 @@ def contador(inicio, fim, passo):
         print(f'{c}', end=' ', flush=True)
         sleep(0.5)
     print('FIM!')
-
 
 
 print('Agora é sua vez de personalizar a contagem!')
