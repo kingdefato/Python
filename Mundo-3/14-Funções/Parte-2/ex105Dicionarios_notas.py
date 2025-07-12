@@ -1,4 +1,10 @@
 def notas(*n, sit=False):
+    """
+    -> Função para analisar notas e situações de vários alunos.
+    :param n: uma ou mais notas dos alunos (aceita várias)
+    :param sit: valor opcional, indicando se deve ou não adicionar a situação
+    :return: dicionário com várias informações sobre a situação dos alunos
+    """
     aluno = dict()
     aluno['Total de Notas'] = len(n)
     aluno['Nota Maxima'] = max(n)
@@ -29,3 +35,4 @@ while True:
 
 resp = notas(*nota, sit=True)
 print(resp)
+help(notas)
