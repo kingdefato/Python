@@ -7,9 +7,9 @@ def notas(*n, sit=False):
     """
     aluno = dict()
     aluno['Total de Notas'] = len(n)
-    aluno['Nota Maxima'] = max(n)
+    aluno['Nota Máxima'] = max(n)
     aluno['Nota Mínima'] = min(n)
-    aluno['Media'] = sum(n) / len(n)
+    aluno['Média'] = sum(n) / len(n)
     if sit:
         if aluno['Media'] < 5:
             aluno['Situação'] = 'RUIM'
