@@ -7,10 +7,10 @@ def dobro(num):
 
 
 def aumentar(num, porcentagem):
-    aumento = num + (num / porcentagem)
+    aumento = num + (num * porcentagem / 100)
     return f'{aumento:.2f}'
 
 
 def diminuir(num, porcentagem):
-    reduzir = num - (num / porcentagem)
+    reduzir = num - (num * porcentagem / 100)
     return f'{reduzir:.2f}'
